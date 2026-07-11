@@ -33,21 +33,21 @@ The solution is designed to meet the following requirements:
 
 To meet these requirements, the solution is broken down into the following components:
 
-## Data Ingestion:
+### Data Ingestion:
 
 - Extract customer and sales data from an on-premises SQL database.
 - Load the data into Azure Data Lake Storage (ADLS) using Azure Data Factory (ADF).
 
-## Data Transformation:
+### Data Transformation:
 
 - Use Azure Databricks to clean and transform the data.
 - Organize the data into Bronze, Silver, and Gold layers for raw, cleansed, and aggregated data respectively.
 
-## Data Loading and Reporting:
+### Data Loading and Reporting:
 
 - Load the transformed data into Azure Synapse Analytics.
 - Build a Power BI dashboard to visualize the data, allowing stakeholders to explore sales and demographic insights.
 
-## Automation:
+### Automation:
 
 - Schedule the pipeline to run daily, ensuring that the data and reports are always up-to-date.
